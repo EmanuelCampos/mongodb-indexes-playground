@@ -1,0 +1,17 @@
+{
+  "name": "mongodb-indexes-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Emanuel Ferreira <contatoferreirads@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "es": "node -r esbuild-register",
+    "run:explain": "yarn es ./src/functions/explainByField.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "esbuild": "^0.15.9",
+    "esbuild-register": "^3.3.3",
+    "mongoose": "^6.6.1"
+  }
+}
