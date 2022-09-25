@@ -3,16 +3,22 @@ A easy way to examien your indexes and improve your database perfomance.
 
 ## Steps:
 
-Run a docker locally
-`docker-compose up -d`
+Run a docker locally:  
+```bash
+docker-compose up -d
+```
 
-Setup your env to localhost
+Setup your env to localhost  
 
-Seed your database (currently the amount is manually)
-`yarn seed`
+Seed your database (currently the amount is manually)  
+```bash
+yarn seed
+```
 
-Examine your query (currently the field, value and index is manually)
-`yarn run:explain`
+Examine your query (currently the field, value and index is manually)  
+```bash
+yarn run:explain
+```
 
 
 ## Next steps:
