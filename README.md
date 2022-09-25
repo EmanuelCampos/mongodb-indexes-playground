@@ -16,5 +16,5 @@ Examine your query (currently the field, value and index is manually)
 
 
 ## Next steps:
-- [] Use arguments using CLI
-- [] Add more options to create and test differentes queries
+- [ ] Use arguments using CLI
+- [ ] Add more options to create and test differentes queries
