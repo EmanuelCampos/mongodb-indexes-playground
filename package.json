@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "es": "node -r esbuild-register",
+    "seed": "yarn es ./src/functions/seed.ts",
     "run:explain": "yarn es ./src/functions/explainByField.ts"
   },
   "dependencies": {
